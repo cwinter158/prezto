@@ -11,3 +11,9 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+source ~/.zsh/setup_commands.zsh
+
+set_term_theme
+
+source ~/.zsh/aliases.zsh
