@@ -17,3 +17,9 @@ source ~/.zsh/setup_commands.zsh
 set_term_theme
 
 source ~/.zsh/aliases.zsh
+
+# Add pip packages to path
+export PATH=/Users/christopherwinter/Library/Python/3.7/bin:$PATH
+
+# opam configuration
+test -r /Users/christopherwinter/.opam/opam-init/init.zsh && . /Users/christopherwinter/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
