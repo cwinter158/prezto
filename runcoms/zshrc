@@ -20,3 +20,6 @@ source ~/.zsh/aliases.zsh
 
 # opam configuration
 test -r /Users/christopherwinter/.opam/opam-init/init.zsh && . /Users/christopherwinter/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+
+setopt no_share_history
+unsetopt share_history
