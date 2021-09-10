@@ -23,3 +23,7 @@ test -r /Users/christopherwinter/.opam/opam-init/init.zsh && . /Users/christophe
 
 setopt no_share_history
 unsetopt share_history
+
+if [[ -a "${ZDOTDIR:-$HOME}/.local.zshrc.zsh" ]]; then
+    source ~/.local.zshrc.zsh
+fi
