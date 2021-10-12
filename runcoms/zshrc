@@ -27,3 +27,5 @@ unsetopt share_history
 if [[ -a "${ZDOTDIR:-$HOME}/.local.zshrc.zsh" ]]; then
     source ~/.local.zshrc.zsh
 fi
+
+eval "$(starship init zsh)"
