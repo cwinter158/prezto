@@ -12,6 +12,9 @@ fi
 
 # Customize to your needs...
 
+fpath=($fpath ~/.zsh/zfunc)
+autoload -Uz ~/.zsh/zfunc/**/*
+
 source ~/.zsh/setup_commands.zsh
 
 set_term_theme
