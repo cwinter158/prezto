@@ -31,4 +31,8 @@ if [[ -a "${ZDOTDIR:-$HOME}/.local.zshrc.zsh" ]]; then
     source ~/.local.zshrc.zsh
 fi
 
+if (( $+commands[pipenv] && $+commands[pyenv] )); then
+    export PIPENV_PYTHON=$PYENV_ROOT/shims/python
+fi
+
 eval "$(starship init zsh)"
