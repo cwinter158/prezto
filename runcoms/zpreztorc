@@ -38,7 +38,6 @@ zstyle ':prezto:load' pmodule \
   'spectrum' \
   'gnu-utility' \
   'utility' \
-  'completion' \
   'syntax-highlighting' \
   'prompt' \
   'git' \
@@ -46,6 +45,7 @@ zstyle ':prezto:load' pmodule \
   'macports' \
   'python' \
   'node' \
+  'completion' \
 
 #
 # Autosuggestions
