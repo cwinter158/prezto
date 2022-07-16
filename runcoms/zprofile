@@ -46,6 +46,7 @@ path=(
   $HOME/bin
   $HOME/.cargo/bin
   $HOME/.local/bin
+  /opt/local/{bin,sbin}
   $path
 )
 
